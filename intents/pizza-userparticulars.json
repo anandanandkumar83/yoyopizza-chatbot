@@ -1,0 +1,130 @@
+{
+  "id": "5a649fac-bfb9-409c-9e5e-b28bc1445e46",
+  "name": "pizza-userparticulars",
+  "auto": true,
+  "contexts": [
+    "pizza-getcrust"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza-userparticulars",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6709d365-b2d1-4904-bd49-e9c409aae3f2",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Great! Can you please tell me your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "46dbaeac-bbc4-43f1-913a-4cb331d4e2dc",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "phoneno",
+          "value": "$phoneno",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I get your phone number $name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2e03c884-f2ce-47aa-9dc9-c6ecc889f3ed",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Finally the delivery address?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7af8f660-7303-42ea-a932-f43cb6cc7fa0",
+          "required": false,
+          "dataType": "@pizza-type",
+          "name": "pizzatype",
+          "value": "#pizza-start.pizzatype",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "129c8248-8b19-4574-9557-d5fbbdbe82e8",
+          "required": false,
+          "dataType": "@pizza-size",
+          "name": "pizzasize",
+          "value": "#pizza-getsize.pizzasize",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2307b5eb-3625-4523-bee9-04b7e328d602",
+          "required": false,
+          "dataType": "@pizza-crust",
+          "name": "pizzacrust",
+          "value": "#pizza-getcrust.pizzacrust",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

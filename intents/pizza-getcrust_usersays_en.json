@@ -1,0 +1,80 @@
+[
+  {
+    "id": "895b0e4e-8917-4c02-9a7d-dedebafe036a",
+    "data": [
+      {
+        "text": "no crust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14587ac1-4066-4086-8503-c2a17e30c5b7",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "444f348d-5041-4cf3-acf2-e476b2e2ebd2",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese",
+        "alias": "pizzacrust",
+        "meta": "@pizza-crust",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75fee79c-b3b4-4f89-869f-90e19ac20135",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "thin",
+        "alias": "pizzacrust",
+        "meta": "@pizza-crust",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a68c2591-3940-4971-af32-77ed315c9eee",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "hand tossed",
+        "alias": "pizzacrust",
+        "meta": "@pizza-crust",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

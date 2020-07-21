@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6cebb53d-df50-41da-a72d-90451c2568ae",
+    "data": [
+      {
+        "text": "status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2fa5379d-aa95-47a9-9d0b-eaa8b7629f28",
+    "data": [
+      {
+        "text": "order status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

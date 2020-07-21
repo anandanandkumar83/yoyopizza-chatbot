@@ -1,0 +1,52 @@
+{
+  "id": "9c534ff9-d530-435e-a44a-670431ce9e02",
+  "name": "pizza-start",
+  "auto": true,
+  "contexts": [
+    "pizza-welcome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza-start",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fcf30e18-fdc0-4f32-aa04-5999f0d698b6",
+          "required": false,
+          "dataType": "@pizza-type",
+          "name": "pizzatype",
+          "value": "$pizzatype",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Great!Select the size you need (please choose  : medium,regular,large)?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

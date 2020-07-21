@@ -1,0 +1,52 @@
+{
+  "id": "53efa9c3-161b-4e0e-9ac9-41d505859ab3",
+  "name": "pizza-getcrust",
+  "auto": true,
+  "contexts": [
+    "pizza-getsize"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza-getcrust",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "725b2525-edaf-4d0f-9b50-f1044abe0ccb",
+          "required": false,
+          "dataType": "@pizza-crust",
+          "name": "pizzacrust",
+          "value": "$pizzacrust",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you. Now we will get particulars. Type ok to continue"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

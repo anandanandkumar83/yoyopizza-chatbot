@@ -1,0 +1,52 @@
+{
+  "id": "a0a48906-9b33-48b7-8996-83062287522b",
+  "name": "pizza-getsize",
+  "auto": true,
+  "contexts": [
+    "pizza-start"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza-getsize",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "141c2cdd-7e1a-45d8-b274-69ebe7d918fe",
+          "required": false,
+          "dataType": "@pizza-size",
+          "name": "pizzasize",
+          "value": "$pizzasize",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Can i get the crust that you want(hand tossed,thin,cheese)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

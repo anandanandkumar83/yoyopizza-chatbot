@@ -1,0 +1,20 @@
+[
+  {
+    "value": "medium",
+    "synonyms": [
+      "medium"
+    ]
+  },
+  {
+    "value": "regular",
+    "synonyms": [
+      "regular"
+    ]
+  },
+  {
+    "value": "large",
+    "synonyms": [
+      "large"
+    ]
+  }
+]
